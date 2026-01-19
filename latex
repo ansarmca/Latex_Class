@@ -1,6 +1,7 @@
 \documentclass[a4paper, 12]{report}
 \usepackage{tabularx}
 \usepackage{graphicx}
+\usepackage{listings}
 
 \title{Tutorial}
 \author{K. ANSAR}
@@ -261,5 +262,12 @@ The area of circle is
 Reports. Journal of Technical Writing, 12(3), 45-58}
     
 \end{thebibliography}
+
+
+\vspace{25pt}
+\begin{lstlisting}[language=Python]
+a = a + xc
+\end{lstlisting}
+
 
 \end{document}
